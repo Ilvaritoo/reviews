@@ -1,9 +1,16 @@
+import Review from "./components/Review";
+
 
 
 function App() {
   return (
-    <div className="App">
-    </div>
+      <section className="section">
+        <div className="title">
+          <h2>Our Reviews</h2>
+        </div>
+        <Review />
+      </section>
+
   );
 }
 
